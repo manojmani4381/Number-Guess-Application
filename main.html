@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Num Guess Application</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    <div id="header">Welcome to this game</div>
+    <div id="center">
+        <h2><b>Number Guessing Application</b></h2>
+        <h4><b>Rules :</b></h4>
+        <center>
+        <ul>
+            <li>select a number from 1 to 100</li>
+            <li>click on the check button</li>
+            <li>It will give you a hint to guess the number correctly</li>
+            <li>Repeat the same step until you find the number</li>
+        </ul>
+    </center>
+        <br><br>
+
+        <input type="number" id="number">
+        <p id="hint">         </p>
+        <p id="attempts">  0   </p>
+        <button id="btn1">check</button>
+        <button id="btn2">reset</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
